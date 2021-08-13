@@ -1,0 +1,330 @@
+@charset "UTF-8";
+body {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: white;
+    background: #179DAA;
+    text-align: center;
+    margin: 0px;
+}
+
+hr {
+    margin-top: 7em;
+}
+
+#hr0 {
+    margin-top: 2em;
+}
+
+inicio do menu interativo
+
+#inicio {
+    background-color: #17B0C0;
+}
+
+#menu ul a {
+    background-color: white;
+    display: block;
+    width: 100%;
+    border-bottom: #179DAA 1px solid;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#menu ul {
+    /*list-style-type: disc; */
+    /* list-style-type: circle; */
+    /* list-style-type: square; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 150px;
+}
+
+/*fim do menu interativo*/
+
+#inicio h1 {
+    width: 95%;
+    margin: auto;
+    font-size: 3em;
+    margin-top: 1.7em;
+    margin-bottom: 1.4em;
+}
+
+#menu-topo ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    color: white;
+    align-content: stretch;
+}
+
+/* inicio do lap top vetor*/
+
+#ini-container {
+    background-image: url(img_src/marketing_blackground.png);
+    background-repeat: no-repeat;
+    background-size: 50em;
+    min-height: 22em;
+    background-position: center;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/*fim do lap top veto*/
+
+#menu-topo {
+    top: 1%;
+    position: sticky;
+    width: 90%;
+    background-color: black;
+    filter: opacity(100%);
+    min-height: 2em;
+    max-height: 18em;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 2em;
+    padding-top: 0.8em;
+}
+
+/*preciso mexer aqui*/
+
+#menu-topo ul li {
+    font-size: 0.9em;
+    display: inline-block;
+    color: white;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    list-style-type: none;
+}
+
+#menu-topo ul li:hover {
+    font-weight: 700;
+}
+
+#menu-topo a, img {
+    text-decoration: none;
+    color: white;
+    vertical-align: middle;
+}
+
+#ini-h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 5em;
+    margin-top: 1.2em;
+    -webkit-text-stroke-width: 0.03em;
+    -webkit-text-stroke-color: black;
+}
+
+#sublinha {
+    height: 4px;
+}
+
+#espaço-body {
+    overflow-wrap: break-word;
+    width: 65%;
+    margin: auto;
+}
+
+#espaço-body img {
+    width: 100%;
+}
+
+/*sessão de textos*/
+
+#espaço-texto {
+    overflow-wrap: break-word;
+    margin: auto;
+}
+
+#espaço-texto img {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+#SIGNIFICADO {
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
+    font-size: 2.8em;
+    margin: auto;
+}
+
+#espaço-texto p {
+    font-size: 1.5em;
+    text-align: start;
+    text-justify: distribute;
+}
+
+#TEXTO1 {
+    overflow: hidden;
+    overflow-wrap: break-word;
+    width: 65%;
+    margin: auto;
+    background: #8cd1ab #8cd1ab;
+    background-size: #179DAA 100vh;
+}
+
+#TEXTO1 h1 {
+    font-size: 2.8em;
+    color: white;
+    margin-bottom: 0.5em;
+}
+
+#TEXTO1 p {
+    font-size: 1.5em;
+    text-align: start;
+    text-justify: distribute;
+    color: white;
+    padding: 10px;
+    margin: auto;
+    width: 20;
+    margin: auto;
+    margin-bottom: 1em;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+#IMAGEM1 {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(img_src/foto_2_slide.jpg);
+    min-width: 375px;
+    min-height: 270px;
+    margin: auto;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+#espaço-body1 {
+    margin-top: 5em;
+    min-height: 100em;
+    width: 100%;
+    background-size: 70em;
+    background-position: center;
+    width: 100%;
+}
+
+#TEXTO2 {
+    overflow-wrap: break-word;
+    width: 65%;
+    margin: auto;
+}
+
+#TEXTO2 h1 {
+    font-size: 2.8em;
+    color: white;
+    margin-bottom: 0.5em;
+}
+
+
+
+#TEXTO2 p {
+    font-size: 1.5em;
+    text-align: left;
+    text-justify: distribute;
+    color: white;
+    padding: 10px;
+    margin: auto;
+    width: 20;
+    margin: auto;
+    margin-bottom: 1em;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 5px;
+}
+
+#paragrafoforte {
+    font-weight: bold;
+}
+
+#TEXTO2 img, p {
+    display: inline-block;
+}
+
+#IMAGEM2 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#TEXTO3 {
+    overflow-wrap: break-word;
+    width: 65%;
+    margin: auto;
+}
+
+#TEXTO3 h1 {
+    font-size: 2.8em;
+    color: white;
+    margin-bottom: 0.5em;
+}
+
+#TEXTO3 p {
+    font-size: 1.5em;
+    text-align: start;
+    text-justify: distribute;
+    color: white;
+    padding: 10px;
+    margin: auto;
+    width: 20;
+    margin: auto;
+    margin-bottom: 1em;
+    margin-top: 20 px;
+}
+
+#IMAGEM3 {
+    min-width: 150px;
+    width: 60%;
+}
+
+#TEXTO4 {
+    overflow-wrap: break-word;
+    width: 65%;
+    margin: auto;
+}
+
+#TEXTO4 h1 {
+    font-size: 2.8em;
+    color: white;
+    margin-bottom: 0.5em;
+}
+
+#TEXTO4 p {
+    font-size: 1.5em;
+    text-align: start;
+    text-justify: distribute;
+    color: white;
+    padding: 10px;
+    margin: auto;
+    width: 20;
+    margin: auto;
+    margin-bottom: 1em;
+    margin-top: 20 px;
+}
+
+#IMAGEM4 {
+    width: 100%;
+    max-width: 400px;
+}
+
+/*sessão de textos*/
+
+#voltatopo {
+    margin-top: 6em;
+}
+
+#rodapé {
+    float: bottom;
+    margin: 0 0 0 0;
+    background-color: #17919c;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
